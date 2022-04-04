@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #fff;
     background-color: #000;
@@ -13,6 +17,7 @@ body {
     border-radius: 30px;
     border: none;
     z-index: 1;
+    padding: 10px;
 }
 
 
@@ -22,7 +27,6 @@ button {
     border: none;
     background-color: #5865F2 ;
     padding: 10px;
-    margin: 10px;
     color: #fff;
     opacity: 1;
 }
@@ -33,3 +37,45 @@ button:hover {
     box-shadow:0px 0px 0px 2px #fff inset;
     color: #fff;
 }
+
+.navbar-nav li a {
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff;
+}
+
+.navbar-nav li a:hover {
+    background-color: #161618;
+}
+
+.navbar-nav li a:focus {
+    background-color: #161618;
+}
+
+/*
+.nav-item {
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #fff; 
+   
+}
+.nav-link {
+    background-color: transparent;
+    color: #fff; 
+    padding: 1px;
+}
+
+.nav-link:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.nav-item:hover {
+    background-color: #161618;
+    color: #fff;
+}
+*/
+
