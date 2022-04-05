@@ -1,7 +1,6 @@
 html {
     scroll-behavior: smooth;
     background-color: #000;
-    text-align: center;
 }
 
 body {
@@ -26,6 +25,14 @@ body {
 }
 
 h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
 
