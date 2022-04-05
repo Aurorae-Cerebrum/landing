@@ -49,11 +49,11 @@ button:hover {
 }
 
 .navbar-nav li a:hover {
-    background-color: #161618;
+    background-color: #36363f;
 }
 
 .navbar-nav li a:focus {
-    background-color: #161618;
+    background-color: #36363f;
 }
 
 /*
