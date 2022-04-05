@@ -92,7 +92,8 @@ button:hover {
 
 
 footer {
-    padding-top: 20px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(37, 39, 43, 0.9);
 }
 
 
