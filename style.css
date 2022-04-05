@@ -19,10 +19,21 @@ body {
     border-radius: 30px;
     border: none;
     z-index: 1;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     padding: 10px;
     
 }
 
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
 
 
 button {
@@ -36,9 +47,7 @@ button {
 
 button:hover {
     background-color: #5865F2;
-    
     box-shadow:0px 0px 0px 2px #fff inset;
-    color: #fff;
 }
 
 .navbar-nav li a {
@@ -156,3 +165,4 @@ footer {
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
