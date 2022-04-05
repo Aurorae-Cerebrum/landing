@@ -143,6 +143,10 @@ footer {
         text-align: center;
         padding-left: 0%;
     }
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 
@@ -170,8 +174,6 @@ footer {
 .row {
     list-style: none;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
     margin: 0;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -179,15 +181,18 @@ footer {
 }
 
 .row li a {
+    
+}
+
+.row li {
+    margin: 10px;
     background-color: #000;
     border:rgba(26, 26, 27, 0.9) solid 1px;
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
 
-.row li a:hover {
+.row li:hover {
     background-color: rgba(26, 26, 27, 0.9); 
 }
