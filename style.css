@@ -53,12 +53,10 @@ h1 {
     background: rgb(188,0,254);
     background: linear-gradient(90deg, rgba(188,0,254,1) 0%, rgba(5,209,196,1) 100%); 
     background-size: 200% auto;
-    
     color: #000;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
     animation: shine 2s linear infinite;
 
 } 
