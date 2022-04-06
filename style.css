@@ -24,23 +24,65 @@ body {
     padding: 10px;
 }
 
+
 h1 {
     text-align: center;
 }
+/*
+#gradient {
+    font-size: 64px;
+    background: rgb(188,0,254);
+    background: linear-gradient(90deg, rgba(188,0,254,1) 0%, rgba(5,209,196,1) 100%); 
+    
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: smooth 1s linear infinite;
+}
+
+@keyframes smooth {
+    to {
+        background-position: 200% center;
+    }
+}
+*/
+
 
 #gradient {
     font-size: 64px;
     background: rgb(188,0,254);
     background: linear-gradient(90deg, rgba(188,0,254,1) 0%, rgba(5,209,196,1) 100%); 
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+    
+    animation: shine 2s linear infinite;
+
+} 
+@keyframes shine {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    } 
+    100% {
+    background-position: 0% 50%;
+    }
+}  
 
 p {
     text-align: center;
 }
 
 h3 {
+    text-align: center;
+}
+
+h4 {
     text-align: center;
 }
 
@@ -58,8 +100,6 @@ button {
     padding: 10px;
     color: #fff;
     opacity: 1;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 button:hover {
@@ -159,6 +199,10 @@ footer {
     .row {
         display: flex;
         justify-content: space-between;
+    }
+    button {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
     }
 }
 
