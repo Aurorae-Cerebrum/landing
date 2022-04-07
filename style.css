@@ -24,7 +24,17 @@ body {
     padding: 10px;
 }
 
-
+.box {
+    position: absolute;  
+    z-index: 0.5; 
+    background-color: transparent;
+    margin-left: 20%; 
+    margin-right: 20%; 
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+   
+}
 h1 {
     text-align: center;
 }
@@ -60,6 +70,31 @@ h1 {
     animation: shine 2s linear infinite;
 
 } 
+
+#gradient2 {
+    font-size: 64px;
+    background: rgb(174,238,214);
+    background: linear-gradient(90deg, rgba(174,238,214,1) 0%, rgba(128,186,241,1) 100%); 
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s linear infinite;
+}
+
+
+#gradient3 {
+    font-size: 64px;
+    background: rgba(134,220,230,1);
+    background: linear-gradient(90deg, rgba(134,220,230,1) 0%, rgb(137, 83, 189) 100%); 
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s linear infinite;
+}
 @keyframes shine {
     0% {
         background-position: 0% 50%;
