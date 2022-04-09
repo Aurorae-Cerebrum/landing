@@ -81,9 +81,12 @@ h1 {
     animation: shine 2s linear infinite;
 }
 
+/* font size responsive*/
+
 
 #gradient3 {
-    font-size: 64px;
+    font-size: 32px;
+    font-size: 4rem;
     background: rgba(134,220,230,1);
     background: linear-gradient(90deg, rgba(134,220,230,1) 0%, rgb(137, 83, 189) 100%); 
     background-size: 200% auto;
