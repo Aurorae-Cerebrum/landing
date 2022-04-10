@@ -9,6 +9,18 @@ body {
     
 }
 
+
+#home {
+
+        background: #000;
+        background: linear-gradient(45deg, #000 50%, #03093a 100%);
+       
+       
+       
+        
+        
+}
+
 /* transparent black navbar */
 .navbar {
     background-color: rgba(26, 26, 27, 0.9);
