@@ -5,9 +5,11 @@ function sendMail() {
 
 function prononciation() {
     document.getElementById("name").innerHTML = "[uh-rawr-uh suh-ree-bruhm]";
+    document.getElementById("name").style.fontSize = "20px";
     //wait for 2 seconds
     setTimeout(function() {
         document.getElementById("name").innerHTML = "Aurorae Cerebrum<span><a href=\"#\" onclick=\"prononciation()\">*</a></span>";
+        document.getElementById("name").style.fontSize = "40px";
     }, 2000);
     
 }
