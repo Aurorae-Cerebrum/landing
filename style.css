@@ -7,6 +7,7 @@ html {
 body {
     color: #fff;
     background-color: #000;
+    
 }
 
 a {
@@ -23,6 +24,8 @@ a:hover {
 canvas {
 	position: absolute;
 	top: 0;
+    
+
 
 }
 
@@ -148,6 +151,9 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    text-align: center;
+}
 img {
     width: 100%;
     height: auto;
