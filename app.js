@@ -174,7 +174,7 @@ var w = c.width = window.innerWidth,
 			dataColor: 'hsla(40,80%,light%,alp)',
 			
 			wireframeWidth: .1,
-			wireframeColor: '#88f',
+			wireframeColor: '#fff',
 			
 			depth: 250,
 			focalLength: 250,
@@ -201,9 +201,9 @@ var w = c.width = window.innerWidth,
 		
 		Tau = Math.PI * 2;
 
-ctx.fillStyle = '#222';
+ctx.fillStyle = '#000';
 ctx.fillRect( 0, 0, w, h );
-ctx.fillStyle = '#ccc';
+ctx.fillStyle = '#000';
 ctx.font = '50px Verdana';
 ctx.fillText( '', w / 2 - ctx.measureText( '' ).width / 2, h / 2 - 15 );
 

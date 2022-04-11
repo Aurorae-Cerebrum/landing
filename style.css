@@ -23,7 +23,7 @@ a:hover {
 canvas {
 	position: absolute;
 	top: 0;
-	left: 0;
+
 }
 
 #home {
@@ -52,7 +52,6 @@ canvas {
     z-index: 0.5; 
     background-color: transparent;
     width: 60vw;
-   
     
     border: none;
     font-family: Anaheim, sans-serif;
