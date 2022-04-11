@@ -29,6 +29,16 @@ canvas {
 
 }
 
+.content {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-family: Anaheim, sans-serif;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}
+
 #home {
     background: #000;
     background: linear-gradient(45deg, #000 50%, #03093a 100%);
