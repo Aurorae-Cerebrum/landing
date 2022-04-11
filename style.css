@@ -9,6 +9,11 @@ body {
     
 }
 
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 #home {
     background: #000;
