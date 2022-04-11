@@ -1,13 +1,24 @@
 html {
     scroll-behavior: smooth;
     background-color: #000;
+    
 }
 
 body {
     color: #fff;
     background-color: #000;
-    
 }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 canvas {
 	position: absolute;
@@ -44,10 +55,16 @@ canvas {
     padding: 10px;
     border-radius: 30px;
     border: none;
+    font-family: Anaheim, sans-serif;
+    color: #fff !important;
 }
 h1 {
     text-align: center;
+    
 }
+
+
+
 /*
 #gradient {
     font-size: 64px;

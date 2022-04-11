@@ -3,6 +3,14 @@ function sendMail() {
     return location.href = "mailto:iam.ethanmai@gmail.com";
 }
 
+function prononciation() {
+    document.getElementById("name").innerHTML = "[uh-rawr-uh suh-ree-bruhm]";
+    //wait for 2 seconds
+    setTimeout(function() {
+        document.getElementById("name").innerHTML = "Aurorae Cerebrum<span><a href=\"#\" onclick=\"prononciation()\">*</a></span>";
+    }, 2000);
+    
+}
 
 /*
 particlesJS('particles-js',
@@ -195,7 +203,7 @@ ctx.fillStyle = '#222';
 ctx.fillRect( 0, 0, w, h );
 ctx.fillStyle = '#ccc';
 ctx.font = '50px Verdana';
-ctx.fillText( 'Calculating Nodes', w / 2 - ctx.measureText( 'Calculating Nodes' ).width / 2, h / 2 - 15 );
+ctx.fillText( '', w / 2 - ctx.measureText( '' ).width / 2, h / 2 - 15 );
 
 window.setTimeout( init, 4 ); // to render the loading screen
 
