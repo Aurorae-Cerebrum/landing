@@ -157,7 +157,7 @@ var w = c.width = window.innerWidth,
 			rotVelX: .003,
 			rotVelY: .002,
 			
-			repaintColor: '#111',
+			repaintColor: '#000',
 			connectionColor: 'hsla(200,60%,light%,alp)',
 			rootColor: 'hsla(0,60%,light%,alp)',
 			endColor: 'hsla(160,20%,light%,alp)',
