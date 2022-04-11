@@ -205,6 +205,7 @@ ctx.fillStyle = '#000';
 ctx.fillRect( 0, 0, w, h );
 ctx.fillStyle = '#000';
 ctx.font = '50px Verdana';
+
 ctx.fillText( '', w / 2 - ctx.measureText( '' ).width / 2, h / 2 - 15 );
 
 window.setTimeout( init, 4 ); // to render the loading screen
