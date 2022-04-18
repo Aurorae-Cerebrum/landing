@@ -20,19 +20,10 @@ a:hover {
     text-decoration: none;
 }
 
-
-canvas {
-	position: absolute;
-	top: 0;
-    
-
-
-}
-
+/* background: linear-gradient(45deg, #000 50%, #03093a 100%);*/
 
 #home {
     background: #000;
-    background: linear-gradient(45deg, #000 50%, #03093a 100%);
 }
 
 
@@ -43,6 +34,7 @@ canvas {
     width: 80%;
     margin: 10%;
     margin-top: 20px;
+    top: 0;
     border-radius: 30px;
     border: none;
     z-index: 1;
@@ -154,11 +146,6 @@ h4 {
 
 h5 {
     text-align: center;
-}
-img {
-    width: 100%;
-    height: auto;
-    align-self: center;
 }
 
 

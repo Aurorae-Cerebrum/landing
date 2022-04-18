@@ -168,12 +168,12 @@ var w = c.width = window.innerWidth,
 			rotVelY: .002,
 			
 			repaintColor: '#000',
-			connectionColor: 'hsla(200,60%,light%,alp)',
-			rootColor: 'hsla(0,60%,light%,alp)',
-			endColor: 'hsla(160,20%,light%,alp)',
-			dataColor: 'hsla(40,80%,light%,alp)',
+			connectionColor: '#8e94f2',
+			rootColor: '#757bc8',
+			endColor: '#cbb2fe',
+			dataColor: '#e0c3fc',
 			
-			wireframeWidth: .1,
+			wireframeWidth: .2,
 			wireframeColor: '#fff',
 			
 			depth: 250,
